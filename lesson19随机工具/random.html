@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>随机选择工具</title>
+		<style type="text/css">
+			.wp {
+				width: 300px;
+				margin: 50px auto;
+			}
+			.my-titile {
+				width: 300px;
+				height: 100px;
+				line-height: 100px;
+				text-align: center;
+				border: 5px solid red;
+				font-size: 40px;
+			}
+			.buts {
+				text-align: center;
+				margin-top: 20px;
+			}
+			.add-wp {
+				text-align: center;
+				margin-top: 10px;
+				width: 300px;
+			}
+		</style>
+	</head>
+	<body>
+		
+		<div class="wp">
+			<div id="myTitle" class="my-titile">
+				点击开始
+			</div>
+			<div  class="buts">
+				<button id="startBtn">开始</button>
+				<button id="stopBtn">停止</button>
+			</div>
+			<div class="add-wp">
+				<input type="" name="" id="" value="" />
+				<input type="button" name="" id="addbut" value="新增" />
+			</div>
+		</div>
+		
+		<script type="text/javascript">
+			var myTitle = document.getElementById('myTitle');
+			var addbut = document.getElementById('addbut');
+			var startBtn = document.getElementById('startBtn');
+			var stopBtn = document.getElementById('stopBtn');
+			
+			
+			
+			var arr = '故宫 长城 世界花园 八达岭 天坛 后海 十三陵'.split(' ');
+//			var arr = '故宫 长城 十三陵 十渡 圆明园 颐和园'.split(' ');
+			var len ;
+			var index;
+			var timer;
+			
+			//开始事件
+			startBtn.onclick = function() {
+				var len = arr.length;
+				startBtn.disabled = 'disabled';
+				
+				timer = setInterval(function() {
+					index = Math.floor(Math.random() * len); 
+					myTitle.innerHTML= arr[index];
+				},200);
+				
+			};
+			//停止事件
+			stopBtn.onclick = function() {
+				clearInterval(timer)
+				startBtn.disabled = ''
+			}
+			//新增事件
+			addbut.onclick = function() {
+			 	var val = this.parentNode.getElementsByTagName('input')[0].value,
+			 		newArr = val.split('|'),
+			 		i,
+			 		len = newArr.length;
+			 		
+			 	if(val==''){
+			 		alert('请添加要去的地方！！')
+			 		return;
+			 	}
+			 	for(i=0; i<len; i++) {
+			 		if(isInArry(newArr[i],arr)){
+			 			alert(newArr[i] +'已经存在无需添加')
+			 		}else{
+			 			arr.push(newArr[i]);
+			 			alert(newArr[i] +'添加成功！！')
+			 			
+			 		}
+			 	}
+			 	
+				 
+				arr= arr.concat(newArr);
+				this.parentNode.getElementsByTagName('input')[0].value = ''
+			}
+			
+			var isInArry = function(item , arr) {
+				var i;
+				var len= arr.length;
+				
+				for(i=0; i<len; i++){
+					if(arr[i]== item){
+						return true;
+					}
+				}
+				return false;
+			}
+		</script>
+	</body>
+</html>

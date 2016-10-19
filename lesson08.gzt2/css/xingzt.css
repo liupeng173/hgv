@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:'微软雅黑';
+    font-size: 12px;
+    background-color: #e7e7e7;
+    overflow-y:hidden;
+}
+
+html, body {
+    /*height: 100%;*/
+}
+
+.tap {
+    height: 50px;
+    line-height: 20px;
+    background-color: #4fc2c3;
+    z-index: 9;
+    position: relative;
+}
+
+{
+    float: left;
+    background-color: #24A4AA;
+    width: 65px;
+    height: 50px;
+    background-image: url(../img/left.png); 
+    background-position: -2px 0px;
+}
+
+.tap .gongsm{
+    float: left;
+    font-family: '微软雅黑';
+    font-size: 18px;
+    color: #fff;
+    margin-left: 35px;
+    margin-top: 15px;
+} 
+
+.left-bar{
+    background-color: #fff;
+    width: 65px;
+    height: 100%;
+    text-align: center;
+    /*float: left;*/
+    position: absolute;
+    top: 0;
+    left: 0;
+} 
+
+.left-bar .icons{
+    background-image: url(../img/left.png);
+    width: 26px;
+    height: 26px;
+    margin: 0 auto;
+    position: relative;
+    top: 15px;
+
+}
+
+.left-bar ul{
+    margin-top: 50px;
+}
+
+.left-bar li {
+    height: 78px;
+}
+
+.left-bar li.active , .left-bar li:hover{
+    background-color: #4fc2c3;
+    border-left: 4px solid #2ba6a2;
+    color: #fff;
+}
+
+.left-bar .khgl{
+    background-position: 0 0;
+}
+
+
+.left-bar li.active .khgl, .left-bar li:hover .khgl{
+    background-position: -29px 0 ;
+}
+
+
+.left-bar .jdjc{
+    background-position:  0 -29px ;
+}
+
+.left-bar li.active .jdjc,.left-bar li:hover .jdjc{
+    background-position:  -30px -30px;
+}
+
+.left-bar li.active2 {
+    background-color: #4fc2c3;
+    border-left: 4px solid #2ba6a2;
+    color: #fff;
+}
+
+.left-bar .gzt{
+    background-position:  -55px -60px;
+}
+
+.left-bar li.active .gzt,.left-bar li:hover .gzt{
+    background-position:  -29px -60px;
+}
+
+.left-bar li.active2 .sanjiao {
+    width: 0;
+    height: 0;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #fff transparent transparent ;
+    position: relative;
+    top: 70px;
+    left: 25px;
+}
+
+.left-bar .ygyj{
+     background-position:  0 -87px;
+}
+
+.left-bar li.active .ygyj,.left-bar li:hover.ygyj{
+ background-position:   -87px 0 ;
+}
+
+
+.left-bar .jyfx{
+     background-position:  0 -118px;
+}
+
+.left-bar li.active .jyfx{
+ background-position:  -118px 0;
+}
+
+
+.left-bar .qxsz{
+     background-position:  0 -150px;
+}
+
+.left-bar li.active .qxsz{
+ background-position:  -150px 0;
+}
+
+
+.left-bar li .lable{
+    text-align: center;
+    position: relative;
+    top: 15px;
+}
+
+.main-wp{
+    width: 1000px;
+    background-color: #fff;
+    border:1px solid #ddd;
+    margin: 60px auto 0 ;
+    height: 450px;
+
+}
+
+.left-bar li.jdjc{
+    background-position: -29px 0 ;
+}
+.tap .chentingting {
+    float: right;
+    color: #fff;
+    margin-right: 30px;
+}

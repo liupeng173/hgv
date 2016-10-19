@@ -1,0 +1,369 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-size: 12px;
+    font-family: 微软雅黑;
+    height: 2000px;
+}
+
+ul,li {
+     list-style: none;
+}
+
+.zgyd-top {
+    height: 25px;
+    line-height: 25px;
+    background-color:#f6f6f6;
+    border: 1px solid #f6f6f6;
+}
+
+.zgyd-wp {
+    width: 1200px;
+    margin: 0  auto;
+}
+.zgyd-top .left-top{
+    display: inline;
+   
+}
+.zgyd-top .left-top a{
+    color: #888;
+    font-size: 12px;
+}
+
+.zgyd-top .left-top span{
+    border-right: 1px solid #ececec;
+    padding:0 10px;
+}
+
+
+.zgyd-top .left-top span:hover{
+    color: #4CB6FD;
+}
+
+
+.right-top {
+    float: right;
+}
+.right-top span {
+    color: #888; 
+    padding-left: 20px;
+	
+}
+.right-top .about-yd{
+    padding-left: 2px;
+}
+
+.right-top .left-in-top{
+    display: inline-block;
+    padding: 0 -1px 0 25px;
+
+}
+.right-top .left-in-top b {
+	font-weight: normal;
+	color: #ccc;
+	position: relative;
+    left: 2px;
+}
+.right-top .left-in-top .dengl {
+    color: #E86382;
+
+}
+
+.right-top .left-in-top .dengl .twocaid{
+	position: absolute;
+    top: 12px;
+    right: 228px;
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    width: 100px;
+    display: none; 
+    margin-top: 14px;
+    height: 120px;
+    width: 170px;
+    z-index: 9;
+}
+
+.right-top .left-in-top .dengl .twocaid p{
+	border: 1px solid #CCCCCC;
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 14px;
+    width: 140px;
+    height: 34px;
+    line-height: 34px;
+    position: relative;
+    top: 14px;
+}
+.right-top .left-in-top .dengl:hover .twocaid {
+    display: block;
+    
+
+}
+.right-top .left-in-top .dengl{
+	display: inline-block;
+    height: 25px;
+	background: url(../img/one.png) 6px center no-repeat;
+}
+
+.right-top .left-in-top .dengl:hover{
+	background: url(../img/onel.png) 6px center no-repeat;
+	color: #25b2fe;
+	background-color: #FFFFFF;
+	
+}
+
+.right-top .left-in-top .sjyyt{
+	background: url(../img/tow.png) 6px center no-repeat;
+}
+
+.right-top .left-in-top .sjyyt:hover{
+	background: url(../img/toww.png) 6px center no-repeat;
+	color: #25b2fe;
+
+}
+.right-top .left-on-top{
+    display: inline-block;
+    padding: 0 5px;
+}
+
+.right-top .left-on-top span{
+	padding-left: 0px;
+	
+}
+.right-top .left-on-top span:hover{
+	color: #25b2fe;
+}
+.right-top .left-on-top b{
+	font-weight: normal;
+	color: #ccc;
+}
+
+.right-top .left-in-top img{
+    position: relative;
+    top: 3px;
+}
+
+.clear {
+	clear: both;
+}
+/*logo*/
+
+
+.logo-bar{
+	width: 1200px;
+	margin: 0 auto;
+	
+}
+
+.logo-left-wp {
+	display: inline-block;
+}
+.logo-in-wp {
+    width: 50%;
+
+}
+
+.logo-in-wp {
+	margin-top: 20px;
+}
+
+.beij-wp {
+	display: inline-block;
+    position: relative;
+    top: -31px;
+    left: 240px;
+}
+.beij-wp .beij-bun {
+    font-size: 14px;
+    background: transparent url(../img/x.gif) no-repeat right 9px;
+    padding: 0 15px;
+}
+
+
+.right-wp {
+	 display: inline-block;
+	 float: right;
+	 margin-top: 20px;
+	 position: relative;
+     right: 50px;
+}
+.right-wp .right-in-wp {
+	 display: inline-block;
+	
+}
+.right-wp .right-in-wp input {
+    border: 2px solid #dfdfdf;
+    width: 480px;
+    height: 30px;
+}
+.right-wp .right-in-wp button {
+	display: inline-block;
+    width: 80px;
+    background-color: #25b2fe;
+    height: 34px;
+    border: 0;
+    color: #fff;
+    background-image: url(../img/se.png);
+    background-repeat: no-repeat;
+    background-position: 13px;
+    position: relative;
+    left: -6px;
+    top: 1px;
+
+}
+
+.right-wp .right-in-wp button p{
+    font-family: "微软雅黑";
+    margin-left: 15px;
+	
+}
+
+.right-wp ul {
+   margin-top: 10px;
+}
+.right-wp ul li{
+	float: left;
+	padding: 0 20px 0 0;
+	
+}
+.right-wp ul li:hover{
+	color: #0085D0;
+}
+.right-wp ul .xiaoyuan{
+	color: #e40077;
+}
+
+/*导航栏*/
+
+
+.top-bar{
+	position: relative;
+
+}
+
+.top-in-wp {
+
+}
+
+.top-in-wp img{
+
+	width: 100%;
+	height: 420px;
+
+}
+.top-wp {
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 10px;
+	position: relative;
+	
+}
+.top-wp ul {
+	position: absolute;
+}
+
+.top-wp ul .shouy-wp{
+	width: 159px;
+	height: 39px;
+	text-align: center;
+	background-color: #E4E4E4;
+	line-height: 39px;
+	color: #0085d0;
+    font-weight: bold;
+    font-size: 16px;
+    border-top: 2px solid #0085D0;
+    border-right: 1px solid #fff;
+}
+.top-wp ul .shouy-wp:hover{
+	background-color:#F3F3F3;
+}
+.top-wp ul li{
+	float: left;
+	width: 259px;
+	height: 41px;
+	line-height: 41px;
+	background-color: #E4E4E4;
+	text-align: center;
+	color: #666666;
+    font-size: 16px;
+    border-right: 1px solid #fff;
+}
+.top-wp ul li:hover{
+	background-color: #F3F3F3;
+}
+
+.top-wp .tow-caid-one p {
+	float: left;
+	padding-right: 68px;
+    margin-left: 62px;
+}
+.top-wp li.tow-caid-one p:hover {
+	color: #0085d0;
+
+}
+.top-wp .tow-caid-one {
+    position: absolute;
+    margin-top: 40px;
+    background-color: #fff;
+    width: 1200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    display: none;
+}
+.top-wp:hover .tow-caid-one{
+    display: block;
+	
+}
+.top-wp ul .shouy-wp{
+	display: inline-block;
+	float: left;
+}
+
+
+
+
+
+.left-wp-bar {
+	width: 1200px;
+    margin: 0 auto;
+}
+.left-wp-bar  ul {
+	position: absolute;
+	margin: 0 auto;
+	margin-top: 50px;
+	color: #000;
+}
+.top-bar{
+	
+	
+}
+.top-bar ul li{
+
+}
+.top-bar ul .yidsc {
+    width: 158px;
+    height: 30px;
+    background-color: #fff;
+    line-height: 30px;
+    text-align: center;
+}
+.left-wp-bar ul {
+	 height: 316px;
+}
+.left-wp-bar ul li {
+    background-color: #fff;
+    text-align: center;
+    width: 158px;
+
+	
+}
+
+.left-wp-bar .maisj-ger

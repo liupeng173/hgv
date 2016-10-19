@@ -1,0 +1,868 @@
+html ,ol, li ,body ,ul{
+    margin: 0;
+    padding: 0;
+}
+
+ul,ol,li{
+    list-style: none;
+}
+body{
+    font-family: "微软雅黑";
+    height: 2000px;
+    text-decoration: none;
+    background-color: #f6f5fa;
+    height: 3000px;
+    text-decoration: none;
+}
+.tupianjl{
+    background-image: url(../img/hao123.png);
+}
+
+.top-bar {
+    height: 28px;
+    line-height: 28px;
+    border-bottom: 1px solid #F0F0F0;
+    background-color: #FFF;
+}
+.top-bar .top-in-bar{
+    width: 1190px;
+    overflow: none;
+    margin: 0 auto;
+
+}
+.top-bar .top-laft{
+    float: left;
+    color: #8e9999;
+    font-size: 12px;
+}
+.top-bar .top-laft i{
+    display: inline-block;
+    width: 28px;
+    height: 18px;
+    background-position: -111px -1px;
+    position: relative;
+    left: 18px;
+    top: 7px;
+}
+
+.top-laft li{
+	font-style: 12px;
+    color: #8e9999;
+    float: left;
+}
+.top-laft ul :hover{
+    color: #0AA770;
+	
+}
+
+.top-bar .top-right {
+    float: right;
+    color: #8e9999;
+    font-size: 12px;
+}
+.top-bar .top-right .yijiandl{
+    float: right;
+    color: #8e9999;
+    font-size: 12px;
+    position: relative;
+    top: -1px;
+    right: 163px;
+    padding: 0 10px;
+    border-bottom: 0px solid #ccc;
+    background-color: #F0F0F0;
+}
+.top-bar .top-right .yijiandl:hover{
+    color: #818989;
+
+}.top-bar .top-right ul i:hover{
+    width: 20px;
+    height: 20px;
+    background-position: -111px -388px;
+    position: relative;
+    top: 10px;
+    right: -5px;
+}
+
+.top-bar .top-right ul i{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-position: -110px -355px;
+    position: relative;
+    top: 9px;
+    right: -4px;
+}
+
+.top-bar .top-right ul .hosem{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-position: -103px -287px;
+    position: relative;
+    top: 7px;
+    right: -39px;
+}
+.top-bar .top-right ul .hosem:hover{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-position: -109px -320px;
+    position: relative;
+    top: 6px;
+    right: -45px;
+}
+.top-bar .top-right ul .xiaoi{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-position: -108px -219px;
+    position: relative;
+    top: 7px;
+    right: -45px;
+}
+.top-bar .top-right ul .xiaoi:hover{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-position: -109px -254px;
+    position: relative;
+    top:8px;
+    right: -46px;
+}
+.top-bar .top-right ul .pones{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-position: -111px -70px;
+    position: relative;
+    top: 6px;
+    right: -48px;
+}.top-bar .top-right ul .pones:hover{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-position: -113px -185px;
+    position: relative;
+    top: 7px;
+    right: -50px;
+}
+.top-bar .liulanqi {
+    float: right;
+    position: relative;
+    right: -60px;
+    color: #0AA770;
+}
+.top-bar .liulanqi:hover{
+    float: right;
+    position: relative;
+    right: -60px;
+    color: #0AA770;
+    text-decoration: normal;
+}
+.clear {
+    clear:both;
+}
+
+/*logo*/
+.logo-bar-wp {
+    background-color: #FFF;
+    height: 80px;
+
+}
+.logo-bar {
+    width: 1190px;
+    background-color: #FFF;
+    margin: 0 auto;
+}
+.logo-in-bar{
+    float: laft;
+    position: relative;
+    top: 20px;
+
+}
+.logo-bar .logo-wp {
+    display: inline-block;
+    background-color: #FFF;
+
+}
+.logo-wp {
+    /*background-color: #FFF;*/
+
+}
+.logo-wp span{
+    display: inline-block;
+    color: #666;
+    font-family: 'Microsoft YaHei';
+    font-size: 27px;
+    font-weight: bolder;
+    text-indent: -3px;
+    position: relative;
+    top: -5px;
+}
+.logo{
+    display: inline-block;
+    width: 125px;
+    height: 33px;
+    background-position: 1px -453px;
+    background-repeat: no-repeat;
+}
+
+.search {
+    float: right;
+    position: relative;
+    left: -33px;
+}
+.search >div {
+    float: left;
+}
+
+.search >div.input-wp{
+    border: 2px solid #0AA770;
+    width: 302px;
+    height: 28px;
+}
+.search input{
+    border: none;
+    width: 302px;
+    height: 25px;
+    margin-top: 1px;
+    margin-left: 5px;
+}
+.search input:focus{
+    outline: none;
+}
+
+.search >div.btn{
+    width: 58px;
+    height: 35px;
+    background-position: -63px -506px;
+    cursor: pointer;
+    position: relative;
+    left: -2px;
+}
+
+/*导航条*/
+
+.nav-bar {
+    background-color: #0AA770;
+    height: 40px;
+    margin-top: 0px;
+    cursor:pointer;
+}
+.nav-bar ul{
+    width: 1190px;
+    margin: 0 auto;
+}
+
+.nav-bar li{
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    width: 101px;
+    text-align: center;
+    padding: 0 15px;
+
+}
+.nav-bar li:hover{
+    background-color: #0BBB77;
+}
+
+.nav-bar li.active{
+    background-color: #118860;
+
+}
+.main-ad-wp {
+    width: 1190px;
+    margin: 20px auto;
+    height: 400px;
+    /*overflow: hidden;*/
+}
+.main-ad-wp .slider :hover a{
+    display: block;
+}
+
+.slider a.left{
+    display: block;
+    width: 52px;
+    height: 155px;
+    background-color: #000;
+    position: absolute;
+    top: 50%;
+    margin-top: -75px;
+    opacity: 0.3;
+    display: none;
+}
+
+.slider a.right{
+    display: block;
+    width: 52px;
+    height: 155px;
+    background-color: #000;
+    position: absolute;
+    top: 50%;
+    margin-top: -75px;
+    opacity: 0.3;
+    display: none;
+    right: 0;
+}
+
+.main-ad-wp{
+    cursor:pointer;
+}
+ .slider{
+    float: left;
+    width: 883px;
+    height: 364px;
+    border: 1px solid #ccc;
+    border-left: 1px solid #E6E5EB;
+    position: relative;
+} 
+.main-ad-wp  ol{
+    position: absolute;
+    top: 364px;
+    width: 885px;
+
+}
+.main-ad-wp  ol li{
+    float: left;
+    width: 176px;
+    font-size: 12px;
+    background-color: #fff;
+    height: 37px;
+    text-align: center;
+    line-height: 37px;    
+    border:1px solid #ccc;
+    border-top: 1px solid #ccc;
+    border-top: none;
+    border-left: none;
+    opacity: 0.9;
+}
+
+
+.main-ad-wp  ol li.active{
+    border-bottom: none;
+    height: 35px;
+    border-bottom: 3px solid #FC6418;
+}
+
+.main-ad-wp{
+    position: relative;
+    float: laft;
+    
+}
+.main-ad-wp .top5{
+    float: right;
+    width: 300px;
+    position: absolute;
+    top: 0px;
+    right: 6px;
+}
+.top5 {
+    border-top: 2px solid #0AA770;
+    background-color: #FFF;
+}
+.top5 ul{
+   width: 285px;
+   height: 348px;
+}
+.top5 h1{
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: normal;
+
+
+}
+.top5 li{
+   position: relative;
+   margin-left: 20px;
+}
+
+.top5 span{
+  float: left;
+  background-color: #f50;
+  color: #fff;
+  width: 23px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+}
+.top5 b{
+    float: left;
+  background-color: #ccc;
+  color: #fff;
+  width: 23px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+}
+
+
+.top5 img{
+  float: left;
+   
+}
+.top5 a {
+   font: 12px/1.5 arial,SimSun,helvetica,sans-serif;
+   color: #333;
+   text-decoration: none;
+}
+.top5 a:hover{
+    color: red;
+}
+.top5 p {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    color: red;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+/*news*/
+
+.news {
+    width: 1190px;
+    margin: 0 auto ;
+}
+.news h1{
+    margin-top: 80px;
+    font-size: 24px;
+    font-family: 
+    color:#333;
+    font-weight: normal;
+}
+.news  .news-left {
+    float: left;
+    width: 883px;
+    margin-right: 20px;
+}
+
+.news  .news-right {
+    float: left;
+    text-decoration: none;
+    
+}
+.news .nl-level1 > div,.news .nl-level1 > div a{
+     float: left;
+     width: 430px;
+}
+.news .nl-level1 .yans a{
+     font-size: 20px;
+     text-decoration: none;
+     color: #333;
+     text-align: center;
+     margin-bottom: 10px;
+}
+.news .nl-level1 .yans a:hover{
+    color: #006BAF;
+}
+.news .nl-level1 ul{
+     float: left;
+     width: 215px;
+     font-size: 12px;
+}
+
+.news .nl-level1 {
+    overflow: hidden;
+}
+
+.news-left .nl-level1 ul li{
+    line-height: 25px;
+    height: 25px;
+    position: relative;
+    padding-left: 10px;
+}
+
+.news-left .nl-level1 ul li span{
+    position: absolute;
+    width: 3px;
+    height: 3px;
+    background-color: #ccc;
+    top: 50%;
+    margin-top: -1.5px;
+    left: 0;
+
+}
+    /*right*/
+
+.shiqu-wp {
+
+}
+.zf-img-wp  img{
+    width: 105px;
+    height: 73px;
+    display:block;
+}
+.zf-img-wp {
+    float: left;
+    width: 105px;
+    font-size: 14px;
+}
+.zf-img-wp b{
+    float: left;
+    display: inline-block;
+    border:1px solid #F15000;
+    background-color: #F15000;
+    width: 43px;
+    height: 23px;
+    color: #fff;
+    font-weight: normal;
+    line-height: 23px;
+    text-align: center;
+    position: absolute;
+    top: 3px
+    laft:3px;
+}
+
+.zf-xiangxi {
+    margin-left: 20px;
+}
+.zf-xiangxi span{
+    font-size: 12x;
+    font-size: 12px;
+ }
+.zf-title{
+    font-size: 14px;
+ }
+.shiqu-wp span{
+    float: left;
+    width: 264px;
+    font-size: 12px;
+    line-height: 25px;
+    margin-top: 5px;
+    height: 64px;
+}
+.zf-xiangxi span a{
+    color:  #f50;
+    font-size: 12px;
+    text-decoration: none;
+    position: relative;
+    top: -25px;
+    right: -95px;
+}
+.banner1-wp {
+    margin: 15px 0;
+    margin-bottom: 30px;
+}
+.news-right img {
+	
+}
+.news-right .nv-shen-wp {
+	position: relative;
+	margin-bottom: 15px;
+}
+.nv-shen-wp .nv-shen{
+	position: absolute;
+    left: 0;
+    bottom: 0px;
+    background-color: #333;
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    opacity: 0.8;
+}
+
+.zh-img-wp  img{
+    width: 105px;
+    height: 73px;
+    display:block;
+}
+.zh-img-wp {
+    float: left;
+    width: 105px;
+    font-size: 14px;
+}
+.zh-img-wp b{
+    float: left;
+    display: inline-block;
+    border:1px solid #F15000;
+    background-color: #F15000;
+    width: 43px;
+    height: 23px;
+    color: #fff;
+    font-weight: normal;
+    line-height: 23px;
+    text-align: center;
+    position: absolute;
+    top: 3px
+    laft:3px;
+}
+.zh-bar span {
+    float: left;
+    width: 257px;
+    font-size: 12px;
+    line-height: 25px;
+    margin-top: 5px;
+    height: 64px;
+}
+.zh-bar ul {
+    font-size: 12px;
+    position: relative;
+    top: 63px;
+    right: 360px;
+    line-height: 23px;
+}
+.zh-bar ol {
+    font-size: 12px;
+    position: relative;
+    top: 17px;
+    line-height: 21px;
+    right: 137px;
+}
+.zh-bar span a{
+	color: red;
+	text-decoration: none;
+}
+
+.zuitj-wp {
+   position: relative;
+   top: -109px;
+   left: 453px;
+   width: 510px;
+   
+}
+
+.tj-img-wp  img{
+    width: 105px;
+    height: 73px;
+    display:block;
+}
+.tj-img-wp {
+    float: left;
+    width: 105px;
+    font-size: 14px;
+}
+.tj-img-wp b{
+    float: left;
+    display: inline-block;
+    border:1px solid #F15000;
+    background-color: #F15000;
+    width: 43px;
+    height: 23px;
+    color: #fff;
+    font-weight: normal;
+    line-height: 23px;
+    text-align: center;
+    position: absolute;
+    top: 3px
+    laft:3px;
+}
+.zuitj-wp span {
+    float: left;
+    width: 257px;
+    font-size: 12px;
+    line-height: 25px;
+    margin-top: 5px;
+    height: 64px;
+}
+.zuitj-wp ul {
+    font-size: 12px;
+    position: relative;
+    top: 63px;
+    right: 360px;
+    line-height: 23px;
+}
+.zuitj-wp ol {
+    font-size: 12px;
+    position: relative;
+    top: 17px;
+    line-height: 21px;
+    right: 137px;
+}
+.zuitj-wp span a{
+	color: red;
+	text-decoration: none;
+}
+/*热门机型*/
+
+.hot-mobile {
+	width: 1190px;
+	margin: 0 auto;
+}
+.hot-mobile span, .hot-mobile ul li{
+	float: left;
+}
+.hm-header span{
+	font-size: 24px;
+	margin-right: 30px;
+}
+.hot-mobile ul li{
+}
+
+.hm-header {
+	overflow: hidden;
+    height: 35px;
+}
+.hm-header li{
+	background-color:#CCC;
+	width: 102px;
+	height: 28px;
+	text-align: center;
+	line-height: 28px;
+	margin-right: 4px;
+	font-size: 14px;
+}
+.hm-wp li:hover p{
+	color: #FF3300;
+}
+.hm-header li.active{
+	background-color: #FF5500;
+	color: #fff;
+}
+.hm-wp {
+	border-top: 2px solid #09A56E;
+
+    
+}
+.hot-mobile .hm-wp li{
+	height: 310px;
+	width: 237px;
+	background-color: #fff;
+	margin-right: 1px;
+}
+.hm-header li .sanj{
+	width: 0;
+	height: 0;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #FF5500 transparent transparent transparent;
+	position: relative;
+    left: 46px;
+}
+.hm-wp li img {
+	display: block;
+	margin: 10px auto;
+}
+.hm-wp li p{
+	font-size: 12px;
+	color: #333;
+	text-align: center;
+}
+
+.hm-wp .hm-span-left{
+	float: left;
+	color: #FD4A12;
+	font-size: 20px;
+	margin-left: 6px;
+	margin-top: 15px;
+}
+.hm-wp .hm-span-left span{
+	font-size: 12px;
+	font-weight: bold;
+	margin-top: 8px;
+}
+.hm-wp .hm-span-right{
+	float: right;
+	font-size: 12px;
+	color: #CCC;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+.hm-wp .hm-span-right span{
+	color: #876A66;
+	float: right;
+	
+}
+/*潮流机型*/
+.chaol-bar-wp{
+	margin: 40px 0 0;
+    /*position: relative;*/
+    /*overflow: hidden*/
+}
+.chaol-bar {
+	line-height: 20px;
+    height: 34px;
+}
+.chaol-bar .chaol-in-wp {
+    font-size: 24px;
+}
+.chaol-wp {
+	width: 1190px;
+	/*overflow: hidden;*/
+    position: relative;
+}
+.cljx-wp first{
+	display: block;
+    position: relative;
+    height: 610px;
+    background: #E2E2E2;
+}
+.cljx-bar {
+	position: absolute;
+	width: 1200px;
+	height: auto;
+}
+
+.cljx-wp {
+	float: left;
+	width: 237px;
+    /*height: 310px;*/
+    margin: 0 1px 1px 0;
+    background: #fff;
+}
+.cljx-wp .cljx-in-wp {
+	margin: 40px 40px 20px 10px; 
+}
+.caoljx-wp {
+	float: left;
+	background-color: #E2E2E2;
+    width: 238px;
+	height: 193px;
+	text-align: center;
+    position: relative;
+    top: -4px;
+    right: -1px;
+}
+.cljx-wp .cljx-in-wp a{
+	display: inline-block;
+	text-decoration: none;
+	background-color: #fff;
+    line-height: 30px;
+    padding: 0px 16px;
+    height: 30px;
+	color: #000000;
+	font-size: 12px;
+	margin: 1px -2px;
+
+}
+.cljx-wp a{
+	text-decoration: none;
+	color: #000;
+	text-align: center;
+}
+.cljx-wp .hm-span-left span{
+	font-size: 12px;
+	margin: 20px 0 20px 20px;
+}
+.cljx-wp .hm-span-left {
+	color: red;
+}
+.cljx-wp .hm-span-right {
+	color: #9A9A9A;;
+	float: right;
+	font-size: 12px;
+}
+.cljx-wp .hm-span-right span{
+	color: #666;;
+	font-size: 12px;
+	margin: 20px 20px 20px 0;
+}
+.caoljx {
+	float: right;
+	height: 189px;
+}
+.chaol-bar-wp .cljx-wp first {
+	float: left;
+}
+.cljx-wp p {
+	font-size: 12px;
+	margin: 20px;
+}
+.cljx-wp p:hover{
+	color: #FF3300;
+}
+/*高性价比*/

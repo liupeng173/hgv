@@ -1,0 +1,205 @@
+html ,ol, li ,body ,ul{
+    margin: 0;
+    padding: 0;
+}
+
+ul,ol,li{
+    list-style: none;
+    cursor: pointer;
+}
+body{
+    font-family: "微软雅黑";
+    text-decoration: none;
+    background-color: #f6f5fa;
+    text-decoration: none;
+}
+.tupianjl{
+    background-image: url(../img/hao123.png);
+}
+
+.top-bar {
+    height: 28px;
+    line-height: 28px;
+    border-bottom: 1px solid #F0F0F0;
+    background-color: #FFF;
+}
+.top-bar .top-in-bar{
+    width: 1190px;
+    overflow: none;
+    margin: 0 auto;
+
+}
+.top-bar .top-laft{
+    float: left;
+    color: #8e9999;
+    font-size: 12px;
+}
+.top-bar .top-laft i{
+    display: inline-block;
+    width: 28px;
+    height: 18px;
+    background-position: -111px -1px;
+    position: relative;
+    left: 18px;
+    top: 7px;
+}
+
+.top-laft li{
+    font-style: 12px;
+    color: #8e9999;
+    float: left;
+}
+
+.top-laft li .xiaosj {
+	width: 0;
+    height: 0;
+    line-height: 0;
+    font-size: 0;
+    border: 4px solid #fff;
+    border-top-color: #8e9999;
+    position: relative;
+    top: -29px;
+    left: 88px;
+}
+.top-laft li a {
+	text-decoration: none;
+	color: #959F9F;
+}
+.top-laft ul :hover{
+    color: #0AA770;
+    
+}
+
+.top-bar .top-right {
+    float: right;
+    color: #8e9999;
+    font-size: 12px;
+}
+.top-bar .top-right .yijiandl{
+    float: right;
+    color: #8e9999;
+    font-size: 12px;
+    position: relative;
+    top: -1px;
+    right: 163px;
+    padding: 0 10px;
+    border-bottom: 0px solid #ccc;
+    background-color: #F0F0F0;
+}
+.top-bar .top-right .yijiandl:hover{
+    color: #818989;
+
+}.top-bar .top-right ul i:hover{
+    width: 20px;
+    height: 20px;
+    background-position: -111px -388px;
+    position: relative;
+    top: 10px;
+    right: -5px;
+}
+
+.top-bar .top-right ul i{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-position: -110px -355px;
+    position: relative;
+    top: 9px;
+    right: -4px;
+}
+
+.top-bar .top-right ul .hosem{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-position: -103px -287px;
+    position: relative;
+    top: 7px;
+    right: -39px;
+}
+.top-bar .top-right ul .hosem:hover{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-position: -109px -320px;
+    position: relative;
+    top: 6px;
+    right: -45px;
+}
+.top-bar .top-right ul .xiaoi{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-position: -108px -219px;
+    position: relative;
+    top: 7px;
+    right: -45px;
+}
+.top-bar .top-right ul .xiaoi:hover{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-position: -109px -254px;
+    position: relative;
+    top:8px;
+    right: -46px;
+}
+.top-bar .top-right ul .pones{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-position: -111px -70px;
+    position: relative;
+    top: 6px;
+    right: -48px;
+}.top-bar .top-right ul .pones:hover{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-position: -113px -185px;
+    position: relative;
+    top: 7px;
+    right: -50px;
+}
+.top-bar .liulanqi {
+    float: right;
+    position: relative;
+    right: -60px;
+    color: #0AA770;
+}
+.top-bar .liulanqi:hover{
+    float: right;
+    position: relative;
+    right: -60px;
+    color: #0AA770;
+    text-decoration: normal;
+}
+.clear {
+    clear:both;
+}
+
+/*logo*/
+
+
+.top-logo-bar {
+	height: 60px;
+    background-color: #fff;
+    margin-top: -27px;
+	line-height: 60PX;
+    
+}
+.top-logo-wp{
+	width: 1200px;
+	margin: 0px auto;
+
+}
+.top-logo-bar .top-logo-wp .logo{
+    background-image: url(../img/logo.png);
+	width: 167px;
+	height: 70px;
+	background-repeat: no-repeat;
+    position: relative;
+    top: 5px;
+}
+
+
