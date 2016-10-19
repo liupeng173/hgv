@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>99乘法表</title>
+		<style type="text/css">
+		div {
+			width: 729px;
+			border-color: red;
+			border-width: 0 0 1px 1px;
+			border-style: solid;
+		}
+		span {
+			display: inline-block;
+			width: 80px;
+			height: 30px;
+			line-height: 30px;
+			background-color: #ccc;
+			font-family: 'microsoft yahei';
+			font-size: 16px;
+			text-indent: 10px;
+			border-color: red;
+			border-width: 1px 1px 0 0;
+			border-style: solid;
+		}
+		</style>
+	</head>
+	<body>
+		<h1>99乘法表</h1>
+		<!--<div id="wp">
+			
+		</div>-->
+		<!--<script type="text/javascript">
+			document.write('<div>')
+			function table99 (){
+				for (var i=1 ;i<=9 ;i++){
+					for(var j=1; j<=i; j++){
+						document.write('<span>' + j + '&times;' + i + '=' + i * j + '</span>');
+					}
+					document.write('<br>')
+				}
+			}
+			document.write('</div>')
+			table99();
+		</script>-->
+		
+		
+		<script type="text/javascript">
+			document.write('<div>')
+			function table99() {
+				for(var j=1; j<=9; j++){
+					for(var i=1; i<=j; i++){
+						document.write('<span>'+ i +'&times;'+ j + '='+ i * j +'</span>');
+					}
+					documend.write('<br');
+				}
+			}
+			document.write('</div>')
+			table99()
+		</script>
+		
+		
+	</body>
+</html>

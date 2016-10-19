@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+ul,li {
+  text-decoration: none;
+  list-style: none;
+}
+
+
+
+.top-bar{
+  margin: 30px 20px;
+  background-color: red;
+  height: 20px;
+  position: relative;
+
+}
+
+.top-bar li{
+  float: left;
+  padding-right: 40px;
+}
+.top-bar li:hover .bun-wp{
+  display: block;
+}
+.top-bar li:hover{
+  color: #ccc;
+  background-color: #fff;
+}
+
+.bun-wp {
+  position: absolute;
+  background: red;
+  height: 100px;
+  display: none;
+}
+.bun-wp p:hover{
+  background-color: #f6f6f6;
+}
+
+.bgc  {
+	background-color: red ;
+}
+
+
+.myColck {
+	width: 500px;
+	height: 200px;
+	line-height: 200px;
+	text-align: center;
+	border: 10px solid red;
+	font-size: 70px;
+}

@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+boby {
+    font: 12px arial;
+}
+.top-menu {
+    /*height: 30px;*/
+    position: absolute;
+    top: 20px;
+    right: 15px;
+}
+.ul,li {
+    list-style: none;
+}
+.top-menu li{
+    float: left;
+    font-size: 13px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+.top-menu li a{
+     color: #333;
+}
+.xi a {
+    font-weight: normal;
+}
+.top-menu li.menu a{
+    background-color: #38f;
+    color: #fff;
+    text-decoration: none;
+    position: 5px;
+    /*right: -5px;*/
+}
+.zhengti {
+    width: 645px;
+    height: 150px;
+    margin: 85px auto 0;
+}
+.zhengti img {
+    display: block;
+    margin: 0 auto;
+}
+.search-text {
+    width: 500px;
+    height: 22px;
+}
+.search-wp {
+    border: 1px solid #b6b6b6;
+    width: 539px;
+    height: 34px;
+    display: inline-block;
+}
+.search-wp input{
+    border:none;
+    height: 22px;
+    width: 500px;
+    margin-top: 6px;
+    margin-left: 8px;
+}
+.search-wp input:focus{
+    outline: none;
+}
+.search-btn{
+    background-color: #317ef3;
+    border: none;
+    width: 100px;
+    height: 36px;
+    font-size: 15px;
+    color: #fff;
+    position: relative;
+    top: -36px;
+    left: 540px;
+}
+.zhengti .erweima {
+    float: left;
+    position: relative;
+    top: 280px;
+}
+
+.zhengti .erweima .shoukuai{
+    float: left;
+    position: relative;
+    bottom: 50px;
+    left: 66px;
+}
+.zhengti .erweima {
+    float: left;
+    position: relative;
+    top: 280px;
+}
+
+
+.zhengti .erweima .baiyi{
+    float: left;
+    position:relative;
+    bottom: 50px;
+    left: 66px;
+}
